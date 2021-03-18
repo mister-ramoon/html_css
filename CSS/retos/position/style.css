@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%
+}
+.main {
+    max-width: 60%;
+    height: 70%;
+    margin: 10rem auto;
+    padding: 3rem;
+    background-color: green;
+    border-radius: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+.main_container {
+    display: inline-block;
+    position: absolute;
+    padding: 1rem;
+    top: 7rem;
+    left:30rem;
+    background-color: brown;
+    border-radius: 1rem;
+}
+.main_img {
+    width: 14rem;
+    position: relative;
+    left: 11rem;
+    border-radius: 1rem;
+}
+.main_text {
+    font-size: 1.6rem;
+    padding-top: .5rem;
+    color: white;
+}
